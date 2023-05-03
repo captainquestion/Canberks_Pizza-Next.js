@@ -46,7 +46,7 @@ const Add = ({ setClose }) => {
         img: url,
       };
 
-      await axios.post("/api/products", newProduct)
+      await axios.post("https://food-app-next-js-psi.vercel.app/api/products", newProduct)
         .then(response => {
           window.location.reload(true);
         });
