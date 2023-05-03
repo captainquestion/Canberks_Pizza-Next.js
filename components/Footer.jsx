@@ -1,11 +1,12 @@
 import Image from "next/image";
 import styles from "../styles/Footer.module.css";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <div id="footer_id" className={styles.container}>
       <div className={styles.item}>
-        <Image src="/img/bg.png"  alt="" fill style={{objectFit:"cover"}} />
+        <Image src="/img/bg.png" alt="" fill style={{ objectFit: "cover" }} />
       </div>
       <div className={styles.item}>
         <div className={styles.card}>
@@ -40,7 +41,7 @@ const Footer = () => {
           <h1 className={styles.title}>WORKING HOURS</h1>
           <p className={styles.text}>
             MONDAY UNTIL FRIDAY
-            <br /> 9:00 AM – 10:00 PM 
+            <br /> 9:00 AM – 10:00 PM
           </p>
           <p className={styles.text}>
             SATURDAY - SUNDAY

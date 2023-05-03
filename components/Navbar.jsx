@@ -20,22 +20,30 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>
-          <li className={styles.listItem}>Homepage</li>
-          <li className={styles.listItem}>Products</li>
-          <li className={styles.listItem}>Menu</li>
+          <Link href="/" passHref>
+            <li className={styles.listItem}>Homepage</li>
+          </Link>
+
+          <Link href="#pizza_menu" passHref>
+            <li className={styles.listItem}>Menu</li>
+          </Link>
           <Image src="/img/mtlogo.png" alt="" width="200" height="200" />
-          <li className={styles.listItem}>Events</li>
+          <Link href="#footer_id" passHref>
+            <li className={styles.listItem}>Contact</li>
+          </Link>
           <li className={styles.listItem}>Blog</li>
-          <li className={styles.listItem}>Contact</li>
+          <Link href="/admin" passHref>
+            <li className={styles.listItem}>Admin</li>
+          </Link>
         </ul>
       </div>
       <Link href="/cart" passHref>
-      <div className={styles.item}>
-        <div className={styles.cart}>
-          <Image src="/img/cart.png" alt="" width="30" height="30" />
-          <div className={styles.counter}>{quantity}</div>
+        <div className={styles.item}>
+          <div className={styles.cart}>
+            <Image src="/img/cart.png" alt="" width="30" height="30" />
+            <div className={styles.counter}>{quantity}</div>
+          </div>
         </div>
-      </div>
       </Link>
     </div>
   );
