@@ -1,30 +1,30 @@
-#Canberk's Pizza
+# Canberk's Pizza
 Canberk's Pizza is a MERN stacked web application for ordering pizza.
 
-#Live Website#
+# Live Website
 https://food-app-next-js-psi.vercel.app/
 
-#How it works? 
-1- Add your products to the cart with the selected size, quantity, and extras.
-2- Go to your cart and select "Checkout Now!" -> PayPal 
-3- Enter the information of the shared paypal sandbox accounts.
-4- After successfully making the payment, you can track the status of your order.
-5- You can forward the status of your order through the admin panel and refresh the order status page to see the updated status.
+# How it works? 
+1- Add your products to the cart with the selected size, quantity, and extras.  
+2- Go to your cart and select "Checkout Now!" -> PayPal   
+3- Enter the information of the shared paypal sandbox accounts.  
+4- After successfully making the payment, you can track the status of your order.  
+5- You can forward the status of your order through the admin panel and refresh the order status page to see the updated status.  
 
 You can apply CRUD operations for the products if you logged in as admin. (Credentials at the below)
 
-#Admin User
-**Username: ** admin1
-**Password: ** 123456
+# Admin User
+**Username:** admin1  
+**Password:** 123456
 
-#Paypal Sandbox Accounts
-**Customer Username: ** sb-xkz3t25842579@personal.example.com
-**Customer Password: ** +Jj+T8z3
+# Paypal Sandbox Accounts
+**Customer Username:** sb-xkz3t25842579@personal.example.com  
+**Customer Password:** +Jj+T8z3
 
-**Merchant Username: ** sb-eagqy25842580@business.example.com
-**Merchant Password: ** &T8ru?7I
+**Merchant Username:** sb-eagqy25842580@business.example.com  
+**Merchant Password:** &T8ru?7I
 
-##Technologies Used 
+# Technologies Used 
 * React
 * Next.js
 * Node.js
@@ -38,8 +38,11 @@ You can apply CRUD operations for the products if you logged in as admin. (Crede
 * Postman (API testing)
 * Cloudinary API
 * Paypal API
+* JavaScript
+* HTML
+* CSS
 
-##Features
+# Features
 * Fully responsive design.
 * Redux for complex state management.
 * Payment via Paypal.
@@ -49,7 +52,7 @@ You can apply CRUD operations for the products if you logged in as admin. (Crede
 * Route guarding.
 * CRUD operations for foods using the admin panel.
 
-##Screenshots
+# Screenshots
 
 Featured page with slidable images.
 
