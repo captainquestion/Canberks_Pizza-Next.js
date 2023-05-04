@@ -1,38 +1,113 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#Canberk's Pizza
+Canberk's Pizza is a MERN stacked web application for ordering pizza.
 
-## Getting Started
+#Live Website#
+https://food-app-next-js-psi.vercel.app/
 
-First, run the development server:
+#How it works? 
+1- Add your products to the cart with the selected size, quantity, and extras.
+2- Go to your cart and select "Checkout Now!" -> PayPal 
+3- Enter the information of the shared paypal sandbox accounts.
+4- After successfully making the payment, you can track the status of your order.
+5- You can forward the status of your order through the admin panel and refresh the order status page to see the updated status.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+You can apply CRUD operations for the products if you logged in as admin. (Credentials at the below)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#Admin User
+**Username: ** admin1
+**Password: ** 123456
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#Paypal Sandbox Accounts
+**Customer Username: ** sb-xkz3t25842579@personal.example.com
+**Customer Password: ** +Jj+T8z3
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**Merchant Username: ** sb-eagqy25842580@business.example.com
+**Merchant Password: ** &T8ru?7I
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+##Technologies Used 
+* React
+* Next.js
+* Node.js
+* MongoDB
+* Express
+* Mongoose
+* Redux
+* Axios
+* Cookies
+* Restful API
+* Postman (API testing)
+* Cloudinary API
+* Paypal API
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+##Features
+* Fully responsive design.
+* Redux for complex state management.
+* Payment via Paypal.
+* Admin panel for tracking available products, user orders, and updating the status.
+* Adding items to the menu via Cloudinary if you logged in as Admin.
+* Cookies for recognizing the user.
+* Route guarding.
+* CRUD operations for foods using the admin panel.
 
-## Learn More
+##Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+Featured page with slidable images.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="screenshots/featured.png">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Menu
 
-## Deploy on Vercel
+<img src="screenshots/menu.png" >
+<img src="screenshots/menu2.png" >
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Footer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="screenshots/footer.png" >
+
+Add your favourite pizzas on clicking menu images. 
+
+<img src="screenshots/order.png" >
+
+Go to your cart to make the payment for your products.
+
+<img src="screenshots/cart1.png" >
+
+Checkout with PayPal (credentials shared) (check the transaction with shared credential).
+
+<img src="screenshots/paypal.png" >
+
+On successful payment, redirected to the order tracking page.
+
+<img src="screenshots/orderTrack1.png" >
+
+Login as admin (credentials shared).
+
+<img src="screenshots/admin.png" >
+
+On successful login, redirected to the admin panel dashboard where you can forward order status as well as deleting the products.
+
+<img src="screenshots/adminHome.png" >
+
+Forwarding order.
+
+<img src="screenshots/forwardingOrder.png" >
+
+Refresh the order tracking page.
+
+<img src="screenshots/orderTrack2.png" >
+
+Add Item. (Only if you logged in as Admin)
+
+<img src="screenshots/addItem.png" >
+
+<img src="screenshots/addedItem.png" >
+
+Checkout the newly added Item in admin panel.
+
+<img src="screenshots/adminAddItem.png" >
+
+
+
+
+
+
